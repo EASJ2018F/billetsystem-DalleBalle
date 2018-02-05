@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace Billetsystem
 {
-    class MC
+    public class MC : Transporttype
     {
-        public string Nummerplade;
-        public DateTime Dato;
-
-        public int Pris()
+        public override int Pris()
         {
             return 125;
         }
 
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "MC";
         }

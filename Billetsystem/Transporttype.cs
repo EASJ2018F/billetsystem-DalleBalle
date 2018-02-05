@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace Billetsystem
 {
-    class Køretøj
+    public class Transporttype
     {
         public string Nummerplade;
         public DateTime Dato;
 
+        public virtual int Pris()
+        {
+            return 240;
+        }
 
+        public virtual string Køretøj()
+        {
+            return "Køretøj";
+        }
     }
 }

@@ -107,7 +107,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Bil.cs" />
-    <Compile Include="Køretøj.cs" />
+    <Compile Include="Transporttype.cs" />
     <Compile Include="MC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Billetsystem.rd.xml" />

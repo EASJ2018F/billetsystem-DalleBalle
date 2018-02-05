@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace Billetsystem
 {
-    public class Bil
+    public class Bil : Transporttype
     {
-        public string Nummerplade;
-        public DateTime Dato;
-
-        public int Pris()
+        public override int Pris()
         {
             return 240;
         }
 
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "Bil";
         }
